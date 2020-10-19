@@ -1,0 +1,21 @@
+Table 1
+SSH data,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Mission,Agency,Instrument,Launch,Decommission,Duration,Data start,Data end,Duration,Cycle period,Latitude,# measurements,Notes,Link
+,,,,,,,,,,,,,
+Skylab,NASA,,May 1973,February 1974,276d,,,,,,,Microwave altimeter,https://en.wikipedia.org/wiki/Skylab
+GEOS-3,NASA,,9 Apr 75,July 1979,1544d,13 Apr 75,1 Dec 78,1328d,,,,,https://en.wikipedia.org/wiki/GEOS-3
+Seasat,NASA,,27 Jun 78,10 Oct 78,105d,,,,,,,First satellite altimeter,https://en.wikipedia.org/wiki/Seasat
+Geosat,US Navy,,12 Mar 85,January 1990,1756d,,,,2w 3d 1h 12m,,,,https://en.wikipedia.org/wiki/Geosat
+ERS-1,ESA,RA,17 Jul 91,10 Mar 00,3159d,,,,various,,,,https://en.wikipedia.org/wiki/European_Remote-Sensing_Satellite
+TOPEX/Poseidon,NASA/CNES,,10 Aug 92,18 Jan 06,4909d,25 Sep 92,8 Oct 05,4761d,1w 3d,,,,https://en.wikipedia.org/wiki/TOPEX/Poseidon
+ERS-2,ESA,RA,21 Apr 95,5 Sep 11,5981d,,,,5w,,,,
+GFO,US Navy,,10 Feb 98,25 Nov 08,3941d,,,,,,,,https://en.wikipedia.org/wiki/Geosat#GFO
+Jason-1,NASA/CNES,Poseidon 2,7 Dec 01,21 Jun 13,4214d,14 Jan 02,3 Mar 12,3701d,,,,,https://en.wikipedia.org/wiki/Jason-1
+Envisat,,RA-2,1 Mar 02,8 Apr 12,3691d,14 May 02,21 Oct 10,3082d,5w,,,,
+OSTM/Jason-2,"NASA, NOAA, CNES, EUMETSAT",OSTM,20 Jun 08,1 Oct 19,4120d,11 Jul 08,5 May 15,2489d,,,,,https://en.wikipedia.org/wiki/OSTM/Jason-2
+Cryosat-2,ESA,SIRAL-2,8 Apr 10,7/13/20,3749d,22 Oct 10,7/13/20,3552d,,,,Cryosat-1 lost on launch,https://en.wikipedia.org/wiki/CryoSat-2
+Hai Yang 2A,,RA,16 Aug 11,7/13/20,3254d,,,,,,,,https://en.wikipedia.org/wiki/HY_(satellite)
+Sentinel 3,ESA,SRAL,16 Feb 15,7/13/20,1974d,,7/13/20,,,,,,
+Jason-CS/Sentinel 6,ESA,,1 Nov 20,1 Nov 23,,,,,,,,CS = continuity of service,http://www.altimetry.info/missions/future-missions/jason-cs-sentinel-6/
+SWOT,"NASA, CNES, CSA, UKSA",KaRIn,1 Apr 22,April 2025,,,,,,,,,https://en.wikipedia.org/wiki/Surface_Water_and_Ocean_Topography
