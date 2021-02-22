@@ -31,9 +31,8 @@ transp = 0.7 ;
 % Colours from : https://colorbrewer2.org/?type=diverging&scheme=BrBG&n=4
 LES_col      = [166, 97, 26]./256 ;
 turb_col     = [223,194,125]./256 ;
-%AR6_col      = [0.6350 0.0780 0.1840] ;
-%Poseidon_col = [0.4350 0.2780 0.3840] ;
-AR6_col      = [128,205,193]./256 ;
+TAR_col      = [0.0000 0.4470 0.7410] ;     % Matches TAR color in import_CGCM_file.m
+AR6_col      = [128,205,193]./256 ;         % Matches AR6 color in import_CGCM_file.m
 Poseidon_col = [  1,133,113]./256 ;
 
 %% Plot
@@ -96,8 +95,12 @@ RDintmax=sqrt(10*500*(8/1000))/(fcori*sin(pi*23.5/180));
 fx1=RDintmin; fx2=RDintmax; fy1=1; fy2=1e10;
 fill([fx1 fx2 fx2 fx1 fx1],[fy1 fy1 fy2 fy2 fy1],[.4 .4 .4])
 
+% TAR DOE PCM run. See CGCM_data_history.numbers
+x_dat = [73.7e3 max(L)*0.9 max(L)*0.9 73.7e3]; y_dat = [4*3600 4*3600 150*secs_in_a_yr 150*secs_in_a_yr] ;
+f8 = fill(x_dat, y_dat,TAR_col,'FaceAlpha',transp) ;
+
 % HighResMIP AR6 HadGEM3-GC31-HH run. See Roberts et al. (2019)
-x_dat = [7e3 max(L)*0.9 max(L)*0.9 7e3]; y_dat = [4*3600 4*3600 130*secs_in_a_yr 130*secs_in_a_yr] ;
+x_dat = [7e3 max(L)*0.9 max(L)*0.9 7e3]; y_dat = [4*3600 4*3600 100*secs_in_a_yr 100*secs_in_a_yr] ;
 f7 = fill(x_dat, y_dat,AR6_col,'FaceAlpha',transp) ;
 
 % Poseidon run

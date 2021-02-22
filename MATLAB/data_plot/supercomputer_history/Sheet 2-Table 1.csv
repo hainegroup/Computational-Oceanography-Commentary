@@ -1,0 +1,23 @@
+From: ECMWF timeline on 15Jan21. See also: https://www.ecmwf.int/en/computing/our-facilities/supercomputer.,,,,,
+Year,Manufacturer,Machine,Speed,Unit,
+,,,,,
+24Oct78,CRAY,CRAY-1A SERIES,160,MFLOPS,
+1Jan81,CYBER,835,,,
+13Mar84,CRAY,X-MP/22,,,
+1Dec85,CRAY,X-MP/48,800,MFLOPS,
+1Jan90,CRAY,Y-MP 8/8-64,,,
+30Sep92,CRAY,C90/16-256,15,GFLOP,Installation issues
+,CRAY,Y-MP4E,,,CRAY compensation for installation issues
+1Jan94,CRAY,T3D,,,First distributed memory machine: largescale code changes
+1Jan96,Fujitsu,VPP700/46,30,GFLOP,Vector machine (?)
+1Jan98,Fujitsu,VPP700/E,,,
+1Jan00,Fujitsu,VPP5000,,,
+1Jan02,IBM,CLUSTER 1600 System (x2),,TFLOP,30 p690 servers
+1Jan04,IBM,PSERIES P690++,33,TFLOP,140 p690++ servers. See Lynch 2008
+1Jan06,IBM,155 P5-575+,,,2 clusters with 155 p5-575+ servers each
+1Apr09,IBM,286 P6-575 (x2),,,5 times more powerful than previous system
+24Oct12,IBM,768 POWER7-775,,,3 times more powerful than previous system
+17Sep14,CRAY,XC30 (x2),3593,TFLOP,
+,,,,,
+6Jun16,CRAY,XC40,8499,TFLOP,1.5 times more powerful than previous system
+1Sep20,Atos,BullSequana XH2000,40,PFLOP,See https://www.nextplatform.com/2020/01/14/european-weather-center-breaks-tradition-with-upcoming-supercomputer/

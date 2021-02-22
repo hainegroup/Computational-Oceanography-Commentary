@@ -19,13 +19,12 @@ data.N_OSD = cumsum(histcounts(yearOSD(:,1),edges)') ;
 data.N_PFL = cumsum(histcounts(yearPFL(:,1),edges)') ;
 data.N_Tot = data.N_APB+data.N_CTD+data.N_GLD+data.N_OSD+data.N_PFL ;
 
-data.APB_colour = [0.0000 0.4470 0.7410] ;
-data.CTD_colour = [0.8500 0.3250 0.0980] ;
-data.GLD_colour = [0.9290 0.6940 0.1250] ;
-data.OSD_colour = [0.4940 0.1840 0.5560] ;
-data.PFL_colour = [0.4660 0.6740 0.1880] ;
-%data.Tot_colour = [0.6350 0.0780 0.1840] ;
-data.Tot_colour = [128,205,193]./256 ;         % To match the scales diagram colour ;
+data.APB_color = [0.0000 0.4470 0.7410] ;
+data.CTD_color = [0.8500 0.3250 0.0980] ;
+data.GLD_color = [0.9290 0.6940 0.1250] ;
+data.OSD_color = [0.4940 0.1840 0.5560] ;
+data.PFL_color = [0.4660 0.6740 0.1880] ;
+data.Tot_color = [128,205,193]./256 ;         % To match the scales diagram color ;
 
 fprintf(1,'done.\n') ;
 

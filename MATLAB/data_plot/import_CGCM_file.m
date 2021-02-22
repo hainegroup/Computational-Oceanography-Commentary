@@ -1,4 +1,5 @@
 function data = import_CGCM_file(filename)
+% Imports data from CGCM_data_history.numbers
 
 %% Initialize variables.
 delimiter = ',';
@@ -91,22 +92,22 @@ data.Nlevels = cell2mat(rawNumericColumns(:, 4));
 data.Ngridpts = cell2mat(rawNumericColumns(:, 5));
 data.Nmodels = numel(data.name) ;
 
-data.assessment_colours = [
-    0.0000 0.4470 0.7410 ; ...
-    0.8500 0.3250 0.0980 ; ...
+data.assessment_colors = [
     0.9290 0.6940 0.1250 ; ...
+    0.8500 0.3250 0.0980 ; ...
+    0.0000 0.4470 0.7410 ; ...
     0.4940 0.1840 0.5560 ; ...
     0.4660 0.6740 0.1880 ; ...
     0.6350 0.0780 0.1840 ] ;
-data.assessment_colours(6,:) = [128,205,193]./256 ;         % To match the scales diagram colour
+data.assessment_colors(6,:) = [128,205,193]./256 ;         % To match the scales diagram color
 data.assessment_names = {'FAR','SAR','TAR','AR4','AR5','AR6'} ;
 for rr = 1:numel(data.assessment_names)
     data.assessment_times(rr) = mean(data.times(data.assessment == data.assessment_names(rr))) ;
 end % rr
 
-data.colour = zeros(data.Nmodels,3) ;
+data.color = zeros(data.Nmodels,3) ;
 for mm = 1:data.Nmodels
-    data.colour(mm,:) = data.assessment_colours(data.assessment(mm) == data.assessment_names,:) ;
+    data.color(mm,:) = data.assessment_colors(data.assessment(mm) == data.assessment_names,:) ;
 end % mm
 
 % Extract highest resolution models for each assessment

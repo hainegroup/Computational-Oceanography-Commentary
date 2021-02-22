@@ -1,0 +1,16 @@
+Coupled Climate Model growth over time,,,,,,,,
+Model,Year,Lat resolution,Lon resolution,# levels,# grid points,Model,Domain,Notes
+,,,,,,,,
+Lewis & Bryan (1979),1979,2.37,2.81,12,1.16736E+05,,Global,High resolution run
+Seminar & Chervin (1992),1992,0.50,0.50,20,5.184E+06,Bryan/Cox,Global,32.5 year run with progressively more realistic forcing/conditions
+Maltrud et al. (1998),1998,0.28,0.20,20,2.29376E+07,POP,Global,3 expts of about 10 years each
+Maltrud & McClean (2005),2005,0.10,0.08,40,3.456E+08,POP,Global,15 year run
+LLC4320 (MITgcm48),2016,0.02,0.02,90,1.679616E+10,MITgcm,Global,Rocha et al. (2016)?
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Smith et al. (2000),2000,0.10,0.10,40,2.592E+08,POP,N. Atlantic,"5 yr spin up, 11 yr simulation"
+Lewis & Bryan (1979),1979,4.74,5.63,12,2.9184E+04,,Global,Most experiments
+HYCOM25,2017,0.04,0.04,41,1.6605E+09,HYCOM,Global,Savage et al. (2017)?
+Poseidon,2021,0.02,0.02,200,3.73248E+10,MITgcm,Global,TBA!
