@@ -8,11 +8,11 @@ MATLAB code to make figures for computational oceanography commentary.
 
 Build three figures from the MATLAB subdirectories
 
-* `Turing_test.pdf` from running `make_Turing_test_figure.m` then annotating in keynote. Data for this figure comes from [Haine (2010)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2010GL043272).
+* `Turing_test.pdf` from running `plot_DSO_overflow.m`, `plot_hydrography.m`, `plot_float_trajectories.m` then annotating in keynote. Data for this figure comes from [Haine (2010)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2010GL043272) and [Saberi et al. (2020)](https://doi.org/10.1175/JPO-D-19-0210.1).
 * `data_plot.pdf` from running `make_data_plot.m` then annotating in keynote. This code uses [World Ocean Atlas](https://www.ncei.noaa.gov/products/world-ocean-database) data.
 * `scales_plot.pdf` from running `scales_diagram.m` then annotating in keynote. This code is adapted from [Klinger & Haine (2019) Fig. 1.10.](https://www.cambridge.org/core/books/ocean-circulation-in-three-dimensions/BA67744EF2B76C3FCB239BCBF9D18271).
 
-This commentary is submitted to the Bulletin of the American Meteorological Society. See the preprint [here](???).
+This commentary is resubmitted to the Bulletin of the American Meteorological Society. See the preprint [here](???).
 
 --------
 
