@@ -1,7 +1,5 @@
 Computational-Oceanography-Commentary
 ==============================
-[![Build Status](https://travis-ci.com/hainegroup/computational_oceanography_commentary.svg?branch=master)](https://travis-ci.com/hainegroup/computational_oceanography_commentary)
-[![codecov](https://codecov.io/gh/hainegroup/computational_oceanography_commentary/branch/master/graph/badge.svg)](https://codecov.io/gh/hainegroup/computational_oceanography_commentary)
 [![License:MIT](https://img.shields.io/badge/License-MIT-lightgray.svg?style=flt-square)](https://opensource.org/licenses/MIT)
 
 MATLAB code to make figures for computational oceanography commentary.
@@ -12,7 +10,7 @@ Build three figures from the MATLAB subdirectories
 * `data_plot.pdf` from running `make_data_plot.m` then annotating in keynote. This code uses [World Ocean Atlas](https://www.ncei.noaa.gov/products/world-ocean-database) data.
 * `scales_plot.pdf` from running `scales_diagram.m` then annotating in keynote. This code is adapted from [Klinger & Haine (2019) Fig. 1.10.](https://www.cambridge.org/core/books/ocean-circulation-in-three-dimensions/BA67744EF2B76C3FCB239BCBF9D18271).
 
-This commentary is resubmitted to the Bulletin of the American Meteorological Society. See the preprint [here](???).
+This commentary, entitled *Is Computational Oceanography Coming of Age?* is published by the Bulletin of the American Meteorological Society. See the paper here: [Haine et al. (2021)](https://journals.ametsoc.org/view/journals/bams/102/8/BAMS-D-20-0258.1.xml).
 
 --------
 
